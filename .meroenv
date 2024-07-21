@@ -1,0 +1,14 @@
+
+LIVEKIT_API_KEY=APIVDah2r2VZUV2
+LIVEKIT_API_SECRET=5desi0eFaFUmtdCeI1DkTe4N0WAEWdtR34e7mC8w2tZE
+NEXT_PUBLIC_LIVEKIT_URL=wss://discord-clone-k3zuvpmx.livekit.cloud
+
+NEXT_PUBLIC_SITE_URL="http://localhost:3000"
+DATABASE_URL=postgresql://hariommahato:hariommahato@localhost:5432/property_management?schema=sample
+
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_cHJvbW90ZWQtc2lsa3dvcm0tODIuY2xlcmsuYWNjb3VudHMuZGV2JA
+CLERK_SECRET_KEY=sk_test_i1yPAM5OGllGSNEMx8LLlZlPFBc7g76fgAJNGTebwc
+
+
+UPLOADTHING_SECRET=sk_live_28a6878547e1e02bc3b2407a27f0f370d80eb46fea3fcdd5651c89d9437c3b04
+UPLOADTHING_APP_ID=r97kvcysjk
