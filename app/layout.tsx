@@ -7,6 +7,9 @@ import { ModelProvider } from "@/components/providers/modal-provider";
 import { SocketProvider } from "@/components/providers/socket-provider";
 import { QueryProvider } from "@/components/providers/query-provider";
 import { cn } from "@/lib/utils";
+import ClientOnly from "@/components/providers/client-only";
+
+// import { C } from "@/components/providers/client-only";
 
 const font = Open_Sans({ subsets: ["latin"] });
 
@@ -37,7 +40,10 @@ export default function RootLayout({
           >
             <SocketProvider>
               <ModelProvider />
-              <QueryProvider>{children}</QueryProvider>
+
+              <QueryProvider>
+                <ClientOnly>{children}</ClientOnly>{" "}
+              </QueryProvider>
             </SocketProvider>
           </ThemeProvider>
         </body>
